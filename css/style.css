@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header {
+    display: flex;
+    height: 120px;
+    background-color: #DE2C35;
+    justify-content: center;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    background-color: #262626;
+    align-items: center;
+    width: 990px;
+    color: #fff;
+}
+
+#banner {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background-color: #DE2C35;
+
+}
+
+.naruto-body {
+    display: flex;
+    background-color: #595959;
+    width: 990px;
+    flex-direction: column;
+    text-align: justify;
+}
+
+.naruto-body p {
+    padding: 10px 20px 10px 20px;
+}
+
+.naruto-img {
+    display: flex;
+}
+
+.naruto-img img {
+    width: 100px;
+    height: 140px;
+}
+
+.naruto-img img {
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+footer {
+    display: flex;
+    width: 100%;
+    height: auto;
+    background-color: #DE2C35;
+    justify-content: center;
+}
+
+.rodape {
+    display: flex;
+    background-color: #262626;
+    width: 990px;
+    justify-content: center;
+}
+
+.rodape p {
+    padding:  0px 10px;
+}
+
+.rodape a{
+    color: #DE2C35;
+    text-decoration: none;
+}
+
+.rodape a:hover {
+    color: #fff;
+}
+
+@media (max-width: 700px){
+    .container h1 {
+        font-size: 50px;
+        color: #DE2C35;
+    }
+
+    .naruto-img {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
